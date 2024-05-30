@@ -98,7 +98,7 @@ ryt_get_analytics <- function(
   cli_alert_info('Parse result')
   suppressMessages(
     {data <- tibble(response = resp$rows) %>%
-            unnest_wider(.data$response)
+            unnest_wider(.data$response, names_sep = '_')
     }
   )
 

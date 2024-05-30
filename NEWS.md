@@ -1,4 +1,12 @@
-# rytstat (development version)
+# rytstat 0.3.2
+* Исправлена ошибка в функции `ryt_get_analytics()`:
+
+```
+! Can't unnest elements with missing names.
+i Supply `names_sep` to generate automatic names.
+```
+
+# rytstat 0.3.1
 * В функцию `ryt_get_videos()` добавлен аргумент `fields`, позволяющий указать нужные поля.
 * В функцию `ryt_get_analytics()` добавлены следующие аргументы:
     * `sort` - Сортировка данных в отчёте
