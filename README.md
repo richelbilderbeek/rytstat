@@ -111,7 +111,7 @@ ryt_auth(email = 'me@gmail.com')
 channel <- ryt_get_channels()
 
 # load videos
-videos <- ryt_get_video_list()
+videos <- ryt_get_videos()
 video_details <- ryt_get_video_details(video_id = videos$id_video_id)
 
 # load playlists
