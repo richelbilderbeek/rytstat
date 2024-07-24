@@ -42,7 +42,7 @@ For more details, I recommend that you read the following articles from the offi
 
 ### Authorization process
 
-You run `gads_auth('me@gmail.com')` and start [OAuth Dance](https://medium.com/typeforms-engineering-blog/the-beginners-guide-to-oauth-dancing-4b8f3666de10) in the browser:
+You run `ryt_auth('me@gmail.com')` and start [OAuth Dance](https://medium.com/typeforms-engineering-blog/the-beginners-guide-to-oauth-dancing-4b8f3666de10) in the browser:
 
 ![Typical OAuth dance in the browser, when initiated from within R](https://raw.githubusercontent.com/selesnow/rytstat/master/man/figures/auth_process.png)
 
